@@ -11,11 +11,11 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 
-	"github.com/go-sonic/sonic/config"
-	"github.com/go-sonic/sonic/consts"
-	sonicLog "github.com/go-sonic/sonic/log"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/config"
+	"sonic/consts"
+	sonicLog "sonic/log"
+	"sonic/model/entity"
+	"sonic/util/xerr"
 )
 
 // mysqlDsn example  user:password@tcp(127.0.0.1:3306)/dbname?charset=utf8mb4&parseTime=True&loc=Local

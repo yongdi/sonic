@@ -3,13 +3,13 @@ package model
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/service/assembler"
-	"github.com/go-sonic/sonic/template"
+	"sonic/consts"
+	"sonic/model/dto"
+	"sonic/model/param"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/service/assembler"
+	"sonic/template"
 )
 
 func NewTagModel(optionService service.OptionService,

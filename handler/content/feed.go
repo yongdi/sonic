@@ -9,15 +9,15 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/model/vo"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/service/assembler"
-	"github.com/go-sonic/sonic/template"
-	"github.com/go-sonic/sonic/util"
+	"sonic/consts"
+	"sonic/model/entity"
+	"sonic/model/param"
+	"sonic/model/property"
+	"sonic/model/vo"
+	"sonic/service"
+	"sonic/service/assembler"
+	"sonic/template"
+	"sonic/util"
 )
 
 type FeedHandler struct {

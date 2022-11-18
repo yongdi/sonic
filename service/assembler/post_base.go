@@ -3,10 +3,10 @@ package assembler
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/service"
+	"sonic/consts"
+	"sonic/model/dto"
+	"sonic/model/entity"
+	"sonic/service"
 )
 
 type BasePostAssembler interface {

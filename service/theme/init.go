@@ -1,6 +1,6 @@
 package theme
 
-import "github.com/go-sonic/sonic/injection"
+import "sonic/injection"
 
 func init() {
 	injection.Provide(

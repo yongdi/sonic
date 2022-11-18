@@ -4,7 +4,7 @@ import (
 	"context"
 	"mime/multipart"
 
-	"github.com/go-sonic/sonic/model/dto"
+	"sonic/model/dto"
 )
 
 type BackupService interface {

@@ -3,9 +3,9 @@ package model
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/template"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/template"
 )
 
 func NewLinkModel(

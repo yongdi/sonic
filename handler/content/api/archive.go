@@ -3,9 +3,9 @@ package api
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/service/assembler"
+	"sonic/consts"
+	"sonic/service"
+	"sonic/service/assembler"
 )
 
 type ArchiveHandler struct {

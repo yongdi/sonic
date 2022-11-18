@@ -9,8 +9,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/util"
+	"sonic/consts"
+	"sonic/util"
 )
 
 func NewConfig() *Config {

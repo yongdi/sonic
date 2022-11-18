@@ -1,4 +1,4 @@
-module github.com/go-sonic/sonic
+module sonic
 
 go 1.19
 

@@ -5,14 +5,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/go-sonic/sonic/log"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/model/vo"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util"
+	"sonic/log"
+	"sonic/model/dto"
+	"sonic/model/entity"
+	"sonic/model/param"
+	"sonic/model/property"
+	"sonic/model/vo"
+	"sonic/service"
+	"sonic/util"
 )
 
 type BaseCommentAssembler interface {

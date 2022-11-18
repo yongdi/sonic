@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/model/entity"
+	"sonic/model/entity"
 )
 
 type AuthenticateService interface {

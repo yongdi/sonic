@@ -1,6 +1,6 @@
 package param
 
-import "github.com/go-sonic/sonic/consts"
+import "sonic/consts"
 
 type JournalQuery struct {
 	Page

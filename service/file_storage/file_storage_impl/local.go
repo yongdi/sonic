@@ -15,13 +15,14 @@ import (
 	"github.com/disintegration/imaging"
 	"go.uber.org/zap"
 
-	"github.com/go-sonic/sonic/config"
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/log"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/config"
+	"sonic/consts"
+	"sonic/log"
+	"sonic/model/dto"
+	"sonic/service"
+	"sonic/util"
+	"sonic/util/xerr"
+	"sonic/util/url19"
 )
 
 var (
@@ -169,9 +170,9 @@ func (l *LocalFileStorage) GetFilePath(ctx context.Context, relativePath string)
 	if isEnabled {
 		blogBaseUrl, _ = l.OptionService.GetBlogBaseURL(ctx)
 	}
-	fullPath, _ := url.JoinPath(blogBaseUrl, relativePath)
+	fullPath, _ := url19.JoinPath(blogBaseUrl, relativePath)
 	if blogBaseUrl == "" {
-		fullPath, _ = url.JoinPath("/", relativePath)
+		fullPath, _ = url19.JoinPath("/", relativePath)
 	}
 	fullPath, _ = url.PathUnescape(fullPath)
 	return fullPath, nil

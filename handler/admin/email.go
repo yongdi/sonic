@@ -3,9 +3,9 @@ package admin
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/model/param"
+	"sonic/service"
+	"sonic/util/xerr"
 )
 
 type EmailHandler struct {

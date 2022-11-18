@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
+	"sonic/consts"
+	"sonic/model/dto"
+	"sonic/model/property"
+	"sonic/service"
 )
 
 type statisticServiceImpl struct {

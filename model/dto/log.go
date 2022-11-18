@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/go-sonic/sonic/consts"
+import "sonic/consts"
 
 type Log struct {
 	ID         int64          `json:"id"`

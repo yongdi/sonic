@@ -3,7 +3,7 @@ package admin
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/service"
+	"sonic/service"
 )
 
 type StatisticHandler struct {

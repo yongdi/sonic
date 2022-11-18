@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/consts"
+	"sonic/consts"
 )
 
 type SheetCommentService interface {

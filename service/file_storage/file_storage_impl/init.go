@@ -1,6 +1,6 @@
 package file_storage_impl
 
-import "github.com/go-sonic/sonic/injection"
+import "sonic/injection"
 
 func init() {
 	injection.Provide(

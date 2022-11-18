@@ -7,14 +7,14 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 
-	"github.com/go-sonic/sonic/config"
-	"github.com/go-sonic/sonic/handler/trans"
-	"github.com/go-sonic/sonic/log"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/config"
+	"sonic/handler/trans"
+	"sonic/log"
+	"sonic/model/dto"
+	"sonic/model/param"
+	"sonic/service"
+	"sonic/util"
+	"sonic/util/xerr"
 )
 
 type BackupHandler struct {

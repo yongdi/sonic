@@ -4,7 +4,8 @@ import (
 	"net/url"
 	"path/filepath"
 
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/util/xerr"
+	"sonic/util/url19"
 )
 
 type urlFileDescriptor struct {
@@ -65,12 +66,12 @@ func (f *urlFileDescriptor) getFullDirPath() string {
 }
 
 func (f *urlFileDescriptor) getFullPath() string {
-	fullPath, _ := url.JoinPath(f.BasePath, f.SubPath, f.getFullName())
+	fullPath, _ := url19.JoinPath(f.BasePath, f.SubPath, f.getFullName())
 	return fullPath
 }
 
 func (f *urlFileDescriptor) getRelativePath() string {
-	relativePath, _ := url.JoinPath(f.SubPath, f.getFullName())
+	relativePath, _ := url19.JoinPath(f.SubPath, f.getFullName())
 	return relativePath
 }
 

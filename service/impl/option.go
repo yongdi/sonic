@@ -8,18 +8,18 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/go-sonic/sonic/cache"
-	"github.com/go-sonic/sonic/config"
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/dal"
-	"github.com/go-sonic/sonic/event"
-	"github.com/go-sonic/sonic/log"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/cache"
+	"sonic/config"
+	"sonic/consts"
+	"sonic/dal"
+	"sonic/event"
+	"sonic/log"
+	"sonic/model/dto"
+	"sonic/model/entity"
+	"sonic/model/param"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/util/xerr"
 )
 
 type optionServiceImpl struct {

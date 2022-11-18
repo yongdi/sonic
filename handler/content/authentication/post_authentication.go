@@ -8,11 +8,11 @@ import (
 
 	"github.com/golang-jwt/jwt"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/model/entity"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/util/xerr"
 )
 
 type PostAuthentication struct {

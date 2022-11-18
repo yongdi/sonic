@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/vo"
+	"sonic/model/dto"
+	"sonic/model/entity"
+	"sonic/model/param"
+	"sonic/model/vo"
 )
 
 type CategoryService interface {

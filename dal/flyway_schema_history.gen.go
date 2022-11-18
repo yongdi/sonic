@@ -14,7 +14,7 @@ import (
 	"gorm.io/gorm/schema"
 	"gorm.io/plugin/dbresolver"
 
-	"github.com/go-sonic/sonic/model/entity"
+	"sonic/model/entity"
 )
 
 func newFlywaySchemaHistory(db *gorm.DB, opts ...gen.DOOption) flywaySchemaHistory {

@@ -14,7 +14,7 @@ import (
 	"gorm.io/gorm/schema"
 	"gorm.io/plugin/dbresolver"
 
-	"github.com/go-sonic/sonic/model/entity"
+	"sonic/model/entity"
 )
 
 func newThemeSetting(db *gorm.DB, opts ...gen.DOOption) themeSetting {

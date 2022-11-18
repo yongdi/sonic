@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/go-sonic/sonic/template"
-	"github.com/go-sonic/sonic/util"
+	"sonic/template"
+	"sonic/util"
 )
 
 type toolExtension struct {

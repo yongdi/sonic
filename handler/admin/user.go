@@ -4,13 +4,13 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/handler/trans"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/vo"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/service/impl"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/handler/trans"
+	"sonic/model/param"
+	"sonic/model/vo"
+	"sonic/service"
+	"sonic/service/impl"
+	"sonic/util/xerr"
 )
 
 type UserHandler struct {

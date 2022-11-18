@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/util/xerr"
 )
 
 type DBType string

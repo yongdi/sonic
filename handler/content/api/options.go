@@ -3,8 +3,8 @@ package api
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
+	"sonic/model/property"
+	"sonic/service"
 )
 
 type OptionHandler struct {

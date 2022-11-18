@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/entity"
+	"sonic/consts"
+	"sonic/model/entity"
 )
 
 type PostCategoryService interface {

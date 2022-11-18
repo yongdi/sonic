@@ -10,11 +10,12 @@ import (
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/model/dto"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/util/xerr"
+	"sonic/util/url19"
 )
 
 type MinIO struct {
@@ -104,7 +105,7 @@ func (m *MinIO) GetFilePath(ctx context.Context, relativePath string) (string, e
 		return "", err
 	}
 	base := minioClientInstance.EndPoint + "/" + minioClientInstance.BucketName
-	fullPath, _ := url.JoinPath(base, relativePath)
+	fullPath, _ := url19.JoinPath(base, relativePath)
 	fullPath, _ = url.PathUnescape(fullPath)
 	return fullPath, nil
 }

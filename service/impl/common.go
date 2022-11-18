@@ -8,8 +8,8 @@ import (
 	"gorm.io/gen/field"
 	"gorm.io/gorm"
 
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/model/param"
+	"sonic/util/xerr"
 )
 
 func WrapDBErr(err error) error {

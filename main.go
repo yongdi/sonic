@@ -5,18 +5,18 @@ import (
 
 	"go.uber.org/fx"
 
-	"github.com/go-sonic/sonic/cache"
-	"github.com/go-sonic/sonic/config"
-	"github.com/go-sonic/sonic/dal"
-	"github.com/go-sonic/sonic/event"
-	"github.com/go-sonic/sonic/event/listener"
-	_ "github.com/go-sonic/sonic/event/listener"
-	"github.com/go-sonic/sonic/handler"
-	"github.com/go-sonic/sonic/handler/middleware"
-	"github.com/go-sonic/sonic/injection"
-	"github.com/go-sonic/sonic/log"
-	"github.com/go-sonic/sonic/template"
-	"github.com/go-sonic/sonic/template/extension"
+	"sonic/cache"
+	"sonic/config"
+	"sonic/dal"
+	"sonic/event"
+	"sonic/event/listener"
+	_ "sonic/event/listener"
+	"sonic/handler"
+	"sonic/handler/middleware"
+	"sonic/injection"
+	"sonic/log"
+	"sonic/template"
+	"sonic/template/extension"
 )
 
 var eventBus event.Bus

@@ -10,15 +10,15 @@ import (
 
 	"gorm.io/gen/field"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/dal"
-	"github.com/go-sonic/sonic/log"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/dal"
+	"sonic/log"
+	"sonic/model/entity"
+	"sonic/model/param"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/util"
+	"sonic/util/xerr"
 )
 
 type basePostServiceImpl struct {

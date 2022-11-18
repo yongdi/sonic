@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/model/dto"
+	"sonic/util/xerr"
 )
 
 type FileScanner interface {

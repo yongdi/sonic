@@ -3,8 +3,8 @@ package content
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/handler/content/model"
-	"github.com/go-sonic/sonic/template"
+	"sonic/handler/content/model"
+	"sonic/template"
 )
 
 type LinkHandler struct {

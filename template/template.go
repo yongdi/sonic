@@ -13,7 +13,7 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"go.uber.org/zap"
 
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/util/xerr"
 )
 
 type Template struct {

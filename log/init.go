@@ -8,7 +8,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/go-sonic/sonic/config"
+	"sonic/config"
 )
 
 func NewLogger(conf *config.Config) *zap.Logger {

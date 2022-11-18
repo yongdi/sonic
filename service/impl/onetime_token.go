@@ -3,9 +3,9 @@ package impl
 import (
 	"time"
 
-	"github.com/go-sonic/sonic/cache"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util"
+	"sonic/cache"
+	"sonic/service"
+	"sonic/util"
 )
 
 const (

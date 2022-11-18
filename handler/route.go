@@ -11,10 +11,10 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 
-	"github.com/go-sonic/sonic/config"
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/dal"
-	"github.com/go-sonic/sonic/handler/middleware"
+	"sonic/config"
+	"sonic/consts"
+	"sonic/dal"
+	"sonic/handler/middleware"
 )
 
 func (s *Server) RegisterRouters() {

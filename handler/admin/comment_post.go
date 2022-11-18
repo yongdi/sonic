@@ -4,17 +4,17 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/handler/binding"
-	"github.com/go-sonic/sonic/handler/trans"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/service/assembler"
-	"github.com/go-sonic/sonic/service/impl"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/handler/binding"
+	"sonic/handler/trans"
+	"sonic/model/dto"
+	"sonic/model/param"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/service/assembler"
+	"sonic/service/impl"
+	"sonic/util"
+	"sonic/util/xerr"
 )
 
 type PostCommentHandler struct {

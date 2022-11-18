@@ -3,9 +3,9 @@ package listener
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/event"
-	"github.com/go-sonic/sonic/service"
+	"sonic/consts"
+	"sonic/event"
+	"sonic/service"
 )
 
 type PostUpdateListener struct {

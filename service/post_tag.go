@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/model/param"
+	"sonic/consts"
+	"sonic/model/dto"
+	"sonic/model/entity"
+	"sonic/model/param"
 )
 
 type PostTagService interface {

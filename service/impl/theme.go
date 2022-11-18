@@ -9,16 +9,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-sonic/sonic/config"
-	"github.com/go-sonic/sonic/dal"
-	"github.com/go-sonic/sonic/event"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/service/theme"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/config"
+	"sonic/dal"
+	"sonic/event"
+	"sonic/model/dto"
+	"sonic/model/entity"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/service/theme"
+	"sonic/util"
+	"sonic/util/xerr"
 )
 
 type themeServiceImpl struct {

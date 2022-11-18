@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-sonic/sonic/cache"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/cache"
+	"sonic/model/entity"
+	"sonic/service"
+	"sonic/util/xerr"
 )
 
 type authenticateServiceImpl struct {

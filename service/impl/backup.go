@@ -12,14 +12,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-sonic/sonic/config"
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/dal"
-	"github.com/go-sonic/sonic/log"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/config"
+	"sonic/consts"
+	"sonic/dal"
+	"sonic/log"
+	"sonic/model/dto"
+	"sonic/service"
+	"sonic/util"
+	"sonic/util/xerr"
 )
 
 type backupServiceImpl struct {

@@ -3,9 +3,9 @@ package assembler
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/model/vo"
-	"github.com/go-sonic/sonic/service"
+	"sonic/model/entity"
+	"sonic/model/vo"
+	"sonic/service"
 )
 
 type JournalCommentAssembler interface {

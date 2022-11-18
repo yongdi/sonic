@@ -12,7 +12,7 @@ body:
       label: Checklist
       description: To avoid duplicate issues, it is recommended to do the following first.
       options:
-        - label: The issue has been searched in [GitHub Issues](https://github.com/go-sonic/sonic/issues)
+        - label: The issue has been searched in [GitHub Issues](https://sonic/issues)
           required: true
   - type: markdown
     id: environment

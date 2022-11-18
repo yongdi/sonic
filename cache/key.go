@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/util/xerr"
 )
 
 func BuildTokenAccessKey(accessToken string) string {

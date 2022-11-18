@@ -4,8 +4,8 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/util"
+	"sonic/model/param"
+	"sonic/util"
 )
 
 type BaseDTO struct {

@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/template"
+	"sonic/model/dto"
+	"sonic/service"
+	"sonic/template"
 )
 
 type linkExtension struct {

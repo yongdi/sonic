@@ -3,8 +3,8 @@ package api
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/service"
+	"sonic/model/param"
+	"sonic/service"
 )
 
 type LinkHandler struct {

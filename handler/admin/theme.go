@@ -4,12 +4,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/handler/trans"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/handler/trans"
+	"sonic/model/param"
+	"sonic/service"
+	"sonic/util"
+	"sonic/util/xerr"
 )
 
 type ThemeHandler struct {

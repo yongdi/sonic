@@ -3,7 +3,7 @@ package property
 import (
 	"reflect"
 
-	"github.com/go-sonic/sonic/consts"
+	"sonic/consts"
 )
 
 var (

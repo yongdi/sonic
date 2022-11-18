@@ -3,15 +3,15 @@ package api
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/handler/binding"
-	"github.com/go-sonic/sonic/handler/content/authentication"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/service/assembler"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/handler/binding"
+	"sonic/handler/content/authentication"
+	"sonic/model/dto"
+	"sonic/model/param"
+	"sonic/service"
+	"sonic/service/assembler"
+	"sonic/util"
+	"sonic/util/xerr"
 )
 
 type CategoryHandler struct {

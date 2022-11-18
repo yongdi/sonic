@@ -5,9 +5,9 @@ import (
 	"gorm.io/gen"
 	"gorm.io/gorm"
 
-	"github.com/go-sonic/sonic/config"
-	"github.com/go-sonic/sonic/dal"
-	"github.com/go-sonic/sonic/log"
+	"sonic/config"
+	"sonic/dal"
+	"sonic/log"
 )
 
 // generate code

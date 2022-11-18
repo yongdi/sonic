@@ -5,13 +5,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/handler/content/model"
-	"github.com/go-sonic/sonic/model/entity"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/service/assembler"
-	"github.com/go-sonic/sonic/template"
-	"github.com/go-sonic/sonic/util"
+	"sonic/consts"
+	"sonic/handler/content/model"
+	"sonic/model/entity"
+	"sonic/service"
+	"sonic/service/assembler"
+	"sonic/template"
+	"sonic/util"
 )
 
 type ArchiveHandler struct {

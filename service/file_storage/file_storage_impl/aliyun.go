@@ -5,15 +5,16 @@ import (
 	"image"
 	"io"
 	"mime/multipart"
-	"net/url"
+	"sonic/util/url19"
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/model/dto"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/util/xerr"
+	"net/url"
 )
 
 type Aliyun struct {
@@ -119,7 +120,7 @@ func (a *Aliyun) GetFilePath(ctx context.Context, relativePath string) (string, 
 	if aliyunClientInstance.Domain != "" {
 		basePath = aliyunClientInstance.Protocol + aliyunClientInstance.Domain
 	}
-	fullPath, _ := url.JoinPath(basePath, relativePath)
+	fullPath, _ := url19.JoinPath(basePath, relativePath)
 	fullPath, _ = url.PathUnescape(fullPath)
 	return fullPath, nil
 }

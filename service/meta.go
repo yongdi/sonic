@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/entity"
+	"sonic/model/dto"
+	"sonic/model/entity"
 )
 
 type MetaService interface {

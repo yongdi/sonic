@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/model/dto"
+	"sonic/util"
+	"sonic/util/xerr"
 )
 
 type MultipartZipThemeFetcher interface {

@@ -3,12 +3,12 @@ package extension
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/vo"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/service/assembler"
-	"github.com/go-sonic/sonic/template"
+	"sonic/consts"
+	"sonic/model/param"
+	"sonic/model/vo"
+	"sonic/service"
+	"sonic/service/assembler"
+	"sonic/template"
 )
 
 type postExtension struct {

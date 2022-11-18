@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/go-sonic/sonic/consts"
-	"github.com/go-sonic/sonic/dal"
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/util"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/consts"
+	"sonic/dal"
+	"sonic/model/dto"
+	"sonic/util"
+	"sonic/util/xerr"
 )
 
 func commonRenamePredicateFunc(ctx context.Context, attachmentType consts.AttachmentType) func(relativePath string) (bool, error) {

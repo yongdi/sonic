@@ -3,10 +3,10 @@ package content
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-sonic/sonic/handler/content/model"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/template"
-	"github.com/go-sonic/sonic/util"
+	"sonic/handler/content/model"
+	"sonic/service"
+	"sonic/template"
+	"sonic/util"
 )
 
 type JournalHandler struct {

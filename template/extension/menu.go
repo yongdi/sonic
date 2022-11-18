@@ -3,12 +3,12 @@ package extension
 import (
 	"context"
 
-	"github.com/go-sonic/sonic/model/dto"
-	"github.com/go-sonic/sonic/model/param"
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/model/vo"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/template"
+	"sonic/model/dto"
+	"sonic/model/param"
+	"sonic/model/property"
+	"sonic/model/vo"
+	"sonic/service"
+	"sonic/template"
 )
 
 type menuExtension struct {

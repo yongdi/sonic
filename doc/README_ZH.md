@@ -5,11 +5,11 @@
 <p align="center"><b>Sonic </b> [ˈsɒnɪk] ,Sonic 是一个用Golang开发的博客平台，高效快速.</p>
 
 <p align="center">
-<a href="https://github.com/go-sonic/sonic/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/go-sonic/sonic.svg?style=flat-square&include_prereleases" /></a>
-<a href="https://github.com/go-sonic/sonic/releases"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/go-sonic/sonic/total.svg?style=flat-square" /></a>
+<a href="https://sonic/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/go-sonic/sonic.svg?style=flat-square&include_prereleases" /></a>
+<a href="https://sonic/releases"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/go-sonic/sonic/total.svg?style=flat-square" /></a>
 <a href="https://hub.docker.com/r/go-sonic/sonic"><img alt="Docker pulls" src="https://img.shields.io/docker/pulls/go-sonic/sonic?style=flat-square" /></a>
-<a href="https://github.com/go-sonic/sonic/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/go-sonic/sonic.svg?style=flat-square" /></a>
-<a href="https://github.com/go-sonic/sonic/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/go-sonic/sonic/Sonic%20CI?style=flat-square" /></a>
+<a href="https://sonic/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/go-sonic/sonic.svg?style=flat-square" /></a>
+<a href="https://sonic/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/go-sonic/sonic/Sonic%20CI?style=flat-square" /></a>
 <br />
 <a href="https://t.me/go_sonic">Telegram 频道</a>
 </p>
@@ -31,16 +31,16 @@ Sonic 意为声速的、声音的，正如它的名字一样, sonic 致力于成
 
 ## 🎊 Preview
 
-![默认主题](https://github.com/go-sonic/default-theme-anatole/raw/master/screenshot.png)
+![默认主题](https://default-theme-anatole/raw/master/screenshot.png)
 
-![控制台](https://github.com/go-sonic/resources/raw/master/console-screenshot.png)
+![控制台](https://resources/raw/master/console-screenshot.png)
 
 ## 🧰 安装
 
 ### 下载对应平台的安装包
 > 根据你的操作系统和指令集下载对应的安装包
 ```bash
-wget https://github.com/go-sonic/sonic/releases/download/v1.0.0/sonic-linux-64.zip -O sonic.zip
+wget https://sonic/releases/download/v1.0.0/sonic-linux-64.zip -O sonic.zip
 ```
 ### 解压
 ```bash

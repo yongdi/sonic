@@ -8,9 +8,9 @@ import (
 
 	"github.com/jordan-wright/email"
 
-	"github.com/go-sonic/sonic/model/property"
-	"github.com/go-sonic/sonic/service"
-	"github.com/go-sonic/sonic/util/xerr"
+	"sonic/model/property"
+	"sonic/service"
+	"sonic/util/xerr"
 )
 
 type emailServiceImpl struct {
