@@ -55,6 +55,9 @@ cd sonic
 ./sonic -config conf/config.yaml
 ```
 
+## build
+run build_linux.sh
+
 ### Initialization
 **The default port is 8080**
 
