@@ -56,7 +56,14 @@ cd sonic
 ```
 
 ## build
+firstly, you should install musl-cross
+```bash
+brew install FiloSottile/musl-cross/musl-cross
+```
+
+```bash
 run build_linux.sh
+```
 
 ### Initialization
 **The default port is 8080**
